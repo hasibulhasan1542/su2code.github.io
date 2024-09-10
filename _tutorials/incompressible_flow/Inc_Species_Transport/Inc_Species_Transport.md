@@ -144,7 +144,7 @@ $ SU2_CFD species3_primitiveVenturi.cfg
 ```
 or in parallel with your preferred number of cores (for this small case not more than 4 cores should be used):
 ```
-$ mpirun -n <#cores> SU2_CFD species3_primitiveVenturi.cfg
+$ mpiexec -n <#cores> SU2_CFD species3_primitiveVenturi.cfg
 ```
 
 ## Results
